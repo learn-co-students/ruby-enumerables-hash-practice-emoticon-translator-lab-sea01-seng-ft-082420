@@ -19,9 +19,10 @@ end
 #codes, the items in the emoticon_arrays pointed to by their expression_keys.
 #
 def get_japanese_emoticon(library, emoticon)
+  load_library(library)
   # code goes here
 end
 
-def get_english_meaning(library, emoticon)
+def get_english_meaning(library_path, emoticon)
   # code goes here
 end
